@@ -1,0 +1,850 @@
+[20:48:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:48:20] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:48:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:48:20] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2715 for Minecraft 1.12.2 loading
+[20:48:20] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_171, running on Linux:amd64:4.9.103-xxxx-std-ipv6-64, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[20:48:20] [main/ERROR] [FML]: An error occurred extracting dependency
+java.io.IOException: Unable to create parent directories of ./mods/1.12.2/TheBetweenlands-3.3.10-core.jar
+	at com.google.common.io.Files.createParentDirs(Files.java:460) ~[minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.extractPacked(LibraryManager.java:303) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.extractPacked(LibraryManager.java:199) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.cleanDirectory(LibraryManager.java:165) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.setup(LibraryManager.java:96) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:104) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:85) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:47) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:62) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+[20:48:20] [main/ERROR] [FML]: An error occurred extracting dependency
+java.io.IOException: Unable to create parent directories of ./mods/memory_repo/shetiphian/asm/ShetiPhian-ASM/1.12.0/ShetiPhian-ASM-1.12.0.jar
+	at com.google.common.io.Files.createParentDirs(Files.java:460) ~[minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.extractPacked(LibraryManager.java:342) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.extractPacked(LibraryManager.java:199) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.cleanDirectory(LibraryManager.java:165) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.setup(LibraryManager.java:96) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:104) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:85) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:47) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:62) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+[20:48:20] [main/ERROR] [FML]: An error occurred extracting dependency
+java.io.IOException: Unable to create parent directories of ./mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-82/ImmersiveEngineering-core-0.12-82.jar
+	at com.google.common.io.Files.createParentDirs(Files.java:460) ~[minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.extractPacked(LibraryManager.java:342) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.extractPacked(LibraryManager.java:199) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.cleanDirectory(LibraryManager.java:165) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.setup(LibraryManager.java:96) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:104) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:85) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:47) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:62) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+[20:48:20] [main/INFO] [FML]: Searching /home/minecraft/multicraft/servers/atm3/./mods for mods
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.1.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.0.b155.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in astralsorcery-1.12.2-1.9.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod hellfirepvp.astralsorcery.core.AstralCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/INFO] [FML]: [AstralCore] Initialized.
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in bedpatch-2.2-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[20:48:20] [main/INFO] [FML]: Loading tweaker codechicken.asm.internal.Tweaker from ChickenASM-1.12-1.0.2.7.jar
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in elulib-0.1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod FMLPlugin (elucent.elulib.asm.FMLPlugin) is not signed!
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in EnderCore-1.12.2-0.5.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.9.9.1-1.12.2-anarchy.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.7.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[20:48:20] [main/WARN] [FML]: The coremod com.thiakil.gottagofast.coremod.GottaGoFastLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.64-dev.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in librarianlib-1.12.2-4.9.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod com.teamwizardry.librarianlib.asm.LibLibCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: The coremod LibrarianLib Plugin (com.teamwizardry.librarianlib.asm.LibLibCorePlugin) is not signed!
+[20:48:20] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.4.0.jar
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in NotEnoughIDs-1.5.4.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod ru.fewizz.neid.asm.Plugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: The coremod Plugin (ru.fewizz.neid.asm.Plugin) is not signed!
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenComputers-MC1.12.2-1.7.2.67.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod li.cil.oc.common.launch.TransformerLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: The coremod TransformerLoader (li.cil.oc.common.launch.TransformerLoader) is not signed!
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenModsLib-1.12.2-0.11.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod openmods.core.OpenModsCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.4-125.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:20] [main/WARN] [FML]: The coremod vazkii.quark.base.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:20] [main/WARN] [FML]: The coremod LoadingPlugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[20:48:20] [main/WARN] [FML]: The coremod com.therandomlabs.randompatches.RPCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:21] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in wizardry-0.8.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:48:21] [main/WARN] [FML]: The coremod com.teamwizardry.wizardry.asm.WizardryCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:21] [main/WARN] [FML]: The coremod Wizardry Plugin (com.teamwizardry.wizardry.asm.WizardryCorePlugin) is not signed!
+[20:48:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:48:21] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[20:48:21] [main/INFO] [LaunchWrapper]: Loading tweak class name codechicken.asm.internal.Tweaker
+[20:48:21] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[20:48:21] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/home/minecraft/multicraft/servers/atm3/./mods/malisiscore-1.12.2-6.4.0.jar Service=LaunchWrapper Env=SERVER
+[20:48:21] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:48:21] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[20:48:21] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[20:48:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:21] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:21] [main/INFO] [Aroma1997Core]: Finished data injection.
+[20:48:21] [main/INFO] [Aroma1997Core]: Finished data injection.
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class codechicken.asm.internal.Tweaker
+[20:48:21] [main/INFO] [STDOUT]: [codechicken.asm.internal.Tweaker:injectIntoClassLoader:30]: false
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[20:48:21] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@7ea08277
+[20:48:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Loading patches...
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Initialized! Loaded 8 class patches!
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:48:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:48:22] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:48:22] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Transforming amu : net.minecraft.world.World with 2 patches!
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Skipping PATCHSUNBRIGHTNESSWORLDCLIENT as it can't be applied for side SERVER
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Applied patch PATCHSUNBRIGHTNESSWORLDCOMMON
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:110]: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:113]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:150]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Transforming WorldServer
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e, g] Descriptor ()Z / ()Z)
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:22] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.vazkii.quark.base.asm.ClassTransformer' was detected and will no longer process meta class data
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Transforming axw : net.minecraft.world.chunk.Chunk with 1 patches!
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Applied patch PATCHBLOCKMODIFY
+[20:48:22] [main/INFO] [BedPatch]: Patching Chunk
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:48:22] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[20:48:22] [main/INFO] [STDOUT]: [com.therandomlabs.randompatches.RPTransformer:transform:38]: Patching class: net.minecraft.network.NetHandlerPlayServer
+[20:48:22] [main/INFO] [STDOUT]: [com.therandomlabs.randompatches.RPTransformer:findUpdateMethod:312]: Patching method: e
+[20:48:22] [main/INFO] [Gotta Go Fast]: patching net.minecraft.network.NetHandlerPlayServer.processVehicleMove(CPacketVehicleMove)
+[20:48:22] [main/INFO] [Gotta Go Fast]: patching net.minecraft.network.NetHandlerPlayServer.processPlayer(CPacketPlayer)
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Transforming amu : net.minecraft.world.World with 2 patches!
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Skipping PATCHSUNBRIGHTNESSWORLDCLIENT as it can't be applied for side SERVER
+[20:48:22] [main/INFO] [FML]: [AstralTransformer] Applied patch PATCHSUNBRIGHTNESSWORLDCOMMON
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:110]: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:113]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:150]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[20:48:22] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[20:48:22] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[20:48:22] [main/INFO] [neid]: Patching class: "net.minecraft.block.Block" with Transformer Group: "TransformerGroupBlockHardcoredConstants"
+[20:48:22] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.ru.fewizz.neid.asm.Transformer' was detected and will no longer process meta class data
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Transforming WorldServer
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e, g] Descriptor ()Z / ()Z)
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[20:48:22] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[20:48:23] [main/INFO] [STDOUT]: [com.teamwizardry.wizardry.asm.WizardryTransformer:log:28]: [wizardry ASM] Successfully patched -> 'func_70071_h_', 'onUpdate' with '()V'
+[20:48:23] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Transforming vp : net.minecraft.entity.EntityLivingBase with 2 patches!
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Applied patch PATCHKNOCKBACKEVENT
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Applied patch PATCHUPDATEELYTRA
+[20:48:23] [main/INFO] [STDOUT]: [com.teamwizardry.wizardry.asm.WizardryTransformer:log:28]: [wizardry ASM] Successfully patched -> 'func_191986_a', 'travel' with '(FFF)V'
+[20:48:23] [main/INFO] [LibrarianLib ASM]: Transforming Entity
+[20:48:23] [main/INFO] [LibrarianLib ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[20:48:23] [main/INFO] [LibrarianLib ASM]: Attempting to insert: Update hook
+[20:48:23] [main/INFO] [LibrarianLib ASM]: Patch result: Success
+[20:48:23] [main/INFO] [STDOUT]: [com.teamwizardry.wizardry.asm.WizardryTransformer:log:28]: [wizardry ASM] Successfully patched -> 'func_70091_d', 'move' with '(Lnet/minecraft/entity/MoverType;DDD)V'
+[20:48:23] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:48:23] [main/INFO] [neid]: Patching class: "net.minecraftforge.registries.GameData" with Transformer Group: "TransformerGroupBlockHardcoredConstants"
+[20:48:23] [main/INFO] [neid]: Patching class: "net.minecraftforge.registries.GameData" with Transformer Group: "TransformerGroupItemHardcoredConstants"
+[20:48:23] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[20:48:23] [main/INFO] [neid]: Patching class: "net.minecraft.block.Block" with Transformer Group: "TransformerGroupBlockHardcoredConstants"
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[20:48:23] [main/ERROR] [BetterFps]: Could not save the config file
+java.io.FileNotFoundException: config/betterfps.json (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_171]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_171]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_171]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_171]
+	at java.io.FileWriter.<init>(FileWriter.java:90) ~[?:1.8.0_171]
+	at guichaguri.betterfps.BetterFpsHelper.saveConfig(BetterFpsHelper.java:81) [BetterFpsHelper.class:?]
+	at guichaguri.betterfps.BetterFpsHelper.loadConfig(BetterFpsHelper.java:74) [BetterFpsHelper.class:?]
+	at guichaguri.betterfps.BetterFpsHelper.getConfig(BetterFpsHelper.java:23) [BetterFpsHelper.class:?]
+	at guichaguri.betterfps.transformers.MathTransformer.patchMath(MathTransformer.java:52) [MathTransformer.class:?]
+	at guichaguri.betterfps.transformers.MathTransformer.transform(MathTransformer.java:41) [MathTransformer.class:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) [launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) [?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [?:1.8.0_171]
+	at pl.asie.foamfix.common.PropertyValueMapper$Entry.<init>(PropertyValueMapper.java:64) [foamfix-0.9.9.1-1.12.2-anarchy.jar:?]
+	at pl.asie.foamfix.common.PropertyValueMapper$Entry.<init>(PropertyValueMapper.java:55) [foamfix-0.9.9.1-1.12.2-anarchy.jar:?]
+	at pl.asie.foamfix.common.PropertyValueMapper.getPropertyEntry(PropertyValueMapper.java:161) [foamfix-0.9.9.1-1.12.2-anarchy.jar:?]
+	at pl.asie.foamfix.common.PropertyValueMapper.<init>(PropertyValueMapper.java:129) [foamfix-0.9.9.1-1.12.2-anarchy.jar:?]
+	at pl.asie.foamfix.common.PropertyValueMapper.getOrCreate(PropertyValueMapper.java:152) [foamfix-0.9.9.1-1.12.2-anarchy.jar:?]
+	at net.minecraft.block.state.BlockStateContainer.createState(BlockStateContainer.java:47) [awu.class:?]
+	at net.minecraft.block.state.BlockStateContainer.<init>(BlockStateContainer.java:88) [awu.class:?]
+	at net.minecraft.block.state.BlockStateContainer.<init>(BlockStateContainer.java:62) [awu.class:?]
+	at net.minecraft.block.BlockStone.func_180661_e(SourceFile:71) [auh.class:?]
+	at net.minecraft.block.Block.<init>(Block.java:234) [aow.class:?]
+	at net.minecraft.block.Block.<init>(Block.java:243) [aow.class:?]
+	at net.minecraft.block.BlockStone.<init>(SourceFile:23) [auh.class:?]
+	at net.minecraft.block.Block.func_149671_p(Block.java:2297) [aow.class:?]
+	at net.minecraft.init.Bootstrap.func_151354_b(Bootstrap.java:498) [ni.class:?]
+	at net.minecraft.server.MinecraftServer.main(MinecraftServer.java:1470) [MinecraftServer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.4.2715-universal.jar:?]
+[20:48:23] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Transforming aip : net.minecraft.item.ItemStack with 2 patches!
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIP as it can't be applied for side SERVER
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIPEVENT as it can't be applied for side SERVER
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:173]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Transforming BlockPistonBase
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [doMove, func_176319_a, a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z / (Lamu;Let;Lfa;Z)Z)
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located patch target node ASTORE 11
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [canPush, func_185646_a, a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z / (Lawt;Lamu;Let;Lfa;ZLfa;)Z)
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL aow.hasTileEntity (Lawt;)Z
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Transforming TileEntityPiston
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f, j] Descriptor ()V / ()V)
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [update, func_73660_a, e] Descriptor ()V / ()V)
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:23] [main/INFO] [OpenComputers]: Successfully patched net/minecraft/entity/EntityLiving.recreateLeash.
+[20:48:23] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[20:48:23] [main/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[20:48:23] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[20:48:23] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[20:48:23] [main/INFO] [STDOUT]: [com.teamwizardry.wizardry.asm.WizardryTransformer:log:28]: [wizardry ASM] Successfully patched -> 'func_70071_h_', 'onUpdate' with '()V'
+[20:48:23] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Transforming aip : net.minecraft.item.ItemStack with 2 patches!
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIP as it can't be applied for side SERVER
+[20:48:23] [main/INFO] [FML]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIPEVENT as it can't be applied for side SERVER
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Transforming EntityBoat
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [attackEntityFrom, func_70097_a, a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z / (Lur;F)Z)
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located patch target node POP
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [onUpdate, func_70071_h_, B_] Descriptor ()V / ()V)
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[20:48:23] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:24] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.ai.EntityAICreeperSwell], Method [func_75246_d]
+[20:48:24] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.ai.EntityAICreeperSwell Finished.
+[20:48:24] [main/INFO] [neid]: Patching class: "net.minecraft.stats.StatList" with Transformer Group: "TransformerGroupBlockHardcoredConstants"
+[20:48:24] [main/INFO] [neid]: Patching class: "net.minecraft.stats.StatList" with Transformer Group: "TransformerGroupItemHardcoredConstants"
+[20:48:24] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.EntityDataManagerPatch:apply:69]: Replaced Maps.newHashMap() in net/minecraft/network/datasync/EntityDataManager <init>
+[20:48:24] [main/INFO] [BetterFps]: Patching net.minecraft.server.dedicated.DedicatedServer... (nz)
+[20:48:24] [main/INFO] [neid]: Patching class: "net.minecraft.world.chunk.storage.AnvilChunkLoader" with Transformer Group: "TransformerGroupAnvilChunkLoader"
+[20:48:24] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.inventory.ContainerFurnace], Method [func_82846_b]
+[20:48:24] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.inventory.ContainerFurnace Finished.
+[20:48:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[20:48:25] [Server thread/INFO] [FML]: MinecraftForge v14.23.4.2715 Initialized
+[20:48:25] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:48:25] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[20:48:25] [Server thread/WARN] [FML]: Enabling removal of erroring Entities - USE AT YOUR OWN RISK
+[20:48:25] [Server thread/WARN] [FML]: Enabling removal of erroring Tile Entities - USE AT YOUR OWN RISK
+[20:48:25] [Server thread/INFO] [FML]: Searching /home/minecraft/multicraft/servers/atm3/./mods for mods
+[20:48:25] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'armoryexpansion' with dependency string 'after:BloodArsenal'. The modId 'BloodArsenal' must be all lowercase.
+[20:48:25] [Server thread/WARN] [FML]: Mod aroma1997core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.0.b155
+[20:48:25] [Server thread/WARN] [FML]: Mod aroma1997sdimension is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2.b77
+[20:48:25] [Server thread/INFO] [FML]: Disabling mod betteradvancements it is client side only.
+[20:48:25] [Server thread/WARN] [FML]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.11.1
+[20:48:26] [Server thread/INFO] [FML]: Mod careerbees is missing the required element 'name'. Substituting careerbees
+[20:48:26] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.0.345
+[20:48:26] [Server thread/WARN] [FML]: Mod compactsolars is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-5.0.17.340
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'before:OpenPeripheralCore@[1.1,)'. The modId 'OpenPeripheralCore' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'before:OpenPeripheralApi@[3.2,)'. The modId 'OpenPeripheralApi' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:MineFactoryReloaded'. The modId 'MineFactoryReloaded' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:RedLogic@[59.1.9,)'. The modId 'RedLogic' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:ProjRed|Core'. The modId 'ProjRed|Core' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:BuildCraft|Core@[7.2.0,)'. The modId 'BuildCraft|Core' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:EnderIO@[1.10.2-3.0.1,)'. The modId 'EnderIO' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:MekanismAPI|energy@[8.0.0,)'. The modId 'MekanismAPI|energy' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:Flamingo@[1.7.10-1.3,)'. The modId 'Flamingo' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'computronics' with dependency string 'after:armourersWorkshop@[1.7.10-0.33,)'. The modId 'armourersWorkshop' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'asielib' with dependency string 'after:CoFHAPI|block@[1.7.10R1.0.0,)'. The modId 'CoFHAPI|block' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'asielib' with dependency string 'after:CoFHAPI|energy@[1.7.10R1.0.0,)'. The modId 'CoFHAPI|energy' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'asielib' with dependency string 'after:CoFHAPI|tileentity@[1.7.10R1.0.0,)'. The modId 'CoFHAPI|tileentity' must be all lowercase.
+[20:48:26] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'asielib' with dependency string 'after:CoFHAPI|item@[1.7.10R1.0.0,)'. The modId 'CoFHAPI|item' must be all lowercase.
+[20:48:26] [Server thread/WARN] [FML]: Mod cookingforblockheads is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 6.4.40
+[20:48:26] [Server thread/WARN] [FML]: Mod cosmeticarmorreworked is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-v1
+[20:48:26] [Server thread/WARN] [FML]: Mod craftingtweaks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 8.1.9
+[20:48:26] [Server thread/INFO] [FML]: Disabling mod ctgui it is client side only.
+[20:48:26] [Server thread/WARN] [FML]: Mod cyclicmagic is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.15.15
+[20:48:26] [Server thread/WARN] [FML]: Mod enderstorage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.4.132
+[20:48:27] [Server thread/WARN] [FML]: Mod microblockcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.60
+[20:48:27] [Server thread/WARN] [FML]: Mod forgemultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.60
+[20:48:27] [Server thread/WARN] [FML]: Mod minecraftmultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.60
+[20:48:27] [Server thread/WARN] [FML]: Mod helpfixer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.1-1.5.18
+[20:48:27] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.44.829
+[20:48:27] [Server thread/WARN] [FML]: Mod kleeslabs is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 5.4.10
+[20:48:27] [Server thread/WARN] [FML]: Mod magicbees is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[20:48:28] [Server thread/WARN] [FML]: Mod mrtjpcore is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.3.35
+[20:48:28] [Server thread/WARN] [FML]: Mod nmsot is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.2-mc1.12.2
+[20:48:28] [Server thread/ERROR] [FML]: The mcmod.info file in practicallogistics2-1.12.2-3.0.4.jar cannot be parsed as valid JSON. It will be ignored
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 2 path $[0].logoFile
+	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[Streams.class:?]
+	at com.google.gson.JsonParser.parse(JsonParser.java:84) ~[JsonParser.class:?]
+	at com.google.gson.JsonParser.parse(JsonParser.java:59) ~[JsonParser.class:?]
+	at net.minecraftforge.fml.common.MetadataCollection.from(MetadataCollection.java:63) [MetadataCollection.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:65) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:425) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:566) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 12 column 2 path $[0].logoFile
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:505) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:731) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:48) ~[Streams.class:?]
+	... 14 more
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/INFO] [FML]: Mod projectred-compat is missing the required element 'name'. Substituting projectred-compat
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-compat is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-fabrication is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-integration is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-transmission is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-illumination is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-expansion is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-relocation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-transportation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:28] [Server thread/WARN] [FML]: Mod projectred-exploration is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.9.1.92
+[20:48:29] [Server thread/WARN] [FML]: Mod tcinventoryscan is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.10
+[20:48:29] [Server thread/WARN] [FML]: Mod usefulnullifiers is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.4.1
+[20:48:29] [Server thread/WARN] [FML]: Mod waystones is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 4.0.43
+[20:48:29] [Server thread/WARN] [FML]: Mod wirelesscharger is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-1.0.5
+[20:48:29] [Server thread/INFO] [FML]: Forge Mod Loader has identified 272 mods to load
+[20:48:29] [Server thread/INFO] [FML]: Found mod(s) [mcjtylib_ng] containing declared API package mcjty.lib (owned by McJty) without associated API reference
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for gottagofast: assets/gottagofast/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for actuallybaubles: assets/actuallybaubles/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for aiimprovements: assets/aiimprovements/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for appleskin: assets/appleskin/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for armoryexpansion: assets/armoryexpansion/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for bedpatch: assets/bedpatch/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for chameleon: assets/chameleon/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for cofhcore: assets/cofhcore/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for crafttweaker: assets/crafttweaker/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for crafttweakerjei: assets/crafttweakerjei/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for diethopper: assets/diethopper/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for dldungeonsjdg: assets/dldungeonsjdg/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderiobase: assets/enderiobase/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderioconduits: assets/enderioconduits/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderioconduitsappliedenergistics: assets/enderioconduitsappliedenergistics/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderioconduitsopencomputers: assets/enderioconduitsopencomputers/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderioconduitsrefinedstorage: assets/enderioconduitsrefinedstorage/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderiointegrationforestry: assets/enderiointegrationforestry/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderiointegrationtic: assets/enderiointegrationtic/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderiointegrationticlate: assets/enderiointegrationticlate/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderiomachines: assets/enderiomachines/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for enderiopowertools: assets/enderiopowertools/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for excore: assets/excore/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for fastbench: assets/fastbench/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for fencejumper: assets/fencejumper/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for foamfix: assets/foamfix/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for microblockcbe: assets/microblockcbe/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for forgemultipartcbe: assets/forgemultipartcbe/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for minecraftmultipartcbe: assets/minecraftmultipartcbe/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for harvest: assets/harvest/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for helpfixer: assets/helpfixer/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for initialinventory: assets/initialinventory/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for integratedtunnelscompat: assets/integratedtunnelscompat/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for oredictinit: assets/oredictinit/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for jaopcaadditions: assets/jaopcaadditions/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for kleeslabs: assets/kleeslabs/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for librarianliblate: assets/librarianliblate/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for lostsouls: assets/lostsouls/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for mcjtylib_ng: assets/mcjtylib_ng/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for mcmultipart: assets/mcmultipart/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for mekanismgenerators: assets/mekanismgenerators/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for mekanismtools: assets/mekanismtools/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for modtweaker: assets/modtweaker/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for morpheus: assets/morpheus/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for mrtjpcore: assets/mrtjpcore/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for mtlib: assets/mtlib/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for nmsot: assets/nmsot/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for neid: assets/neid/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for ocxnetdriver: assets/ocxnetdriver/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for p455w0rdslib: assets/p455w0rdslib/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for pamscookables: assets/pamscookables/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for placebo: assets/placebo/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-core: assets/projectred-core/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-compat: assets/projectred-compat/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-fabrication: assets/projectred-fabrication/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-integration: assets/projectred-integration/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-transmission: assets/projectred-transmission/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-illumination: assets/projectred-illumination/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-expansion: assets/projectred-expansion/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-relocation: assets/projectred-relocation/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-transportation: assets/projectred-transportation/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for projectred-exploration: assets/projectred-exploration/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for quickleafdecay: assets/quickleafdecay/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for redstoneflux: assets/redstoneflux/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for slimyboyos: assets/slimyboyos/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for teslacorelib_registries: assets/teslacorelib_registries/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for tombmanygraves2api: assets/tombmanygraves2api/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for unidict: assets/unidict/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for unloader: assets/unloader/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for universalmodifiers: assets/universalmodifiers/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for wanionlib: assets/wanionlib/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for wrapup: assets/wrapup/lang/en_us.lang
+[20:48:29] [Server thread/WARN] [FML]: Missing English translation for ynot: assets/ynot/lang/en_us.lang
+[20:48:29] [Server thread/INFO] [FML]: FML has found a non-mod file BetterAdvancements-1.12.2-0.0.8.50.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:48:29] [Server thread/INFO] [FML]: FML has found a non-mod file compatlayer-1.11.2-0.3.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:48:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, randompatches, openmodscore, foamfixcore, opencomputers|core, elucore, gottagofast, acintegration, abyssalcraft, actuallyadditions, actuallybaubles, additionalbanners, advancedrocketry, ae2stuff, aiimprovements, akashictome, flyringbaublemod, applecore, appleskin, appliedenergistics2, armoryexpansion, aroma1997core, aroma1997sdimension, astralsorcery, atmtweaks, autoreglib, badwithernocookiereloaded, baubles, bdlib, bedpatch, betterbuilderswands, bibliocraft, binniecore, botany, binniedesign, extrabees, extratrees, genetics, biomesoplenty, blockcraftery, bloodmagic, bookshelf, botania, brandonscore, careerbees, ceramics, chameleon, chisel, chiselsandbits, codechickenlib, cofhcore, cofhworld, colossalchests, commoncapabilities, compactmachines3, compactsolars, computercraft, computronics, asielib, conarm, cookingforblockheads, cosmeticarmorreworked, craftingtweaks, crafttweaker, crafttweakerjei, cucumber, cyclicmagic, cyclopscore, darkutils, defaultworldgenerator-port, diethopper, dismantler, dldungeonsjdg, draconicevolution, elulib, embers, endercore, enderio, enderiobase, enderioconduits, enderioconduitsappliedenergistics, enderioconduitsopencomputers, enderioconduitsrefinedstorage, enderiointegrationforestry, enderiointegrationtic, enderiointegrationticlate, enderiomachines, enderiopowertools, enderstorage, environmentaltech, exchangers, excore, extracells, extrarails, extrautils2, bigreactors, fairylights, fastbench, fencejumper, flatcoloredblocks, foamfix, forestry, forgelin, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, ftblib, ftbutilities, funkylocomotion, gendustry, advgenerators, guideapi, harvest, helpfixer, ichunutil, immersivepetroleum, immersivetech, ic2, industrialforegoing, initialinventory, integrateddynamics, integrateddynamicscompat, integratedtunnels, integratedtunnelscompat, integrationforegoing, inventorygenerators, inventorytweaks, ironbackpacks, ironchest, jaopca, oredictinit, jaopcaadditions, jei, jeibees, justenoughdimensions, kjlib, kleeslabs, librarianliblate, librarianlib, libvulpes, lostcities, lostsouls, magipsi, magicbees, malisiscore, malisisdoors, mantle, mcjtylib_ng, mcmultipart, mekanism, mekanismgenerators, mekanismtools, minecolonies, mobtotems, modtweaker, morphtool, morpheus, mrtjpcore, mtlib, mysticalagradditions, mysticalagriculture, natura, naturescompass, nmsot, neid, notenoughwands, nuclearcraft, nutrition, ocxnetdriver, oeintegration, openblocks, opencomputers, openmods, oreexcavation, overloaded, p455w0rdslib, packmode, harvestcraft, pamscookables, parry, placebo, plants2, platforms, plustic, pneumaticcraft, portalgun, portality, practicallogistics2, pressure, projectred-core, projectred-compat, projectred-fabrication, projectred-integration, projectred-transmission, projectred-illumination, projectred-expansion, projectred-relocation, projectred-transportation, projectred-exploration, psi, quantumstorage, quark, quickleafdecay, rangedpumps, realfilingcabinet, reborncore, rebornstorage, redstonearsenal, redstoneflux, refinedstorage, refinedstorageaddons, xreliquary, rftools, rftoolscontrol, rftoolsdim, rftoolspower, roots, rustic, woodenshears, shadowmc, simplyjetpacks, slimyboyos, sonarcore, soulshardstow, stevescarts, storagedrawers, storagedrawersextra, tconstruct, techreborn, terraqueous, teslacorelib, teslacorelib_registries, thaumcraft, tcinventoryscan, thebetweenlands, theoneprobe, thermalcultivation, thermaldynamics, thermalexpansion, thermalfoundation, thermalinnovation, tinker_io, tinkertoolleveling, tombmanygraves, tombmanygraves2api, topaddons, traverse, twilightforest, unidict, unloader, usefulnullifiers, universalmodifiers, valkyrielib, waim, wanionlib, waterstrainer, waystones, wirelesscharger, wct, wizardry, woot, wrapup, xnet, xtones, ynot, zerocore, industrialwires, shetiphiancore, immersiveengineering] at CLIENT
+[20:48:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, randompatches, openmodscore, foamfixcore, opencomputers|core, elucore, gottagofast, acintegration, abyssalcraft, actuallyadditions, actuallybaubles, additionalbanners, advancedrocketry, ae2stuff, aiimprovements, akashictome, flyringbaublemod, applecore, appleskin, appliedenergistics2, armoryexpansion, aroma1997core, aroma1997sdimension, astralsorcery, atmtweaks, autoreglib, badwithernocookiereloaded, baubles, bdlib, bedpatch, betterbuilderswands, bibliocraft, binniecore, botany, binniedesign, extrabees, extratrees, genetics, biomesoplenty, blockcraftery, bloodmagic, bookshelf, botania, brandonscore, careerbees, ceramics, chameleon, chisel, chiselsandbits, codechickenlib, cofhcore, cofhworld, colossalchests, commoncapabilities, compactmachines3, compactsolars, computercraft, computronics, asielib, conarm, cookingforblockheads, cosmeticarmorreworked, craftingtweaks, crafttweaker, crafttweakerjei, cucumber, cyclicmagic, cyclopscore, darkutils, defaultworldgenerator-port, diethopper, dismantler, dldungeonsjdg, draconicevolution, elulib, embers, endercore, enderio, enderiobase, enderioconduits, enderioconduitsappliedenergistics, enderioconduitsopencomputers, enderioconduitsrefinedstorage, enderiointegrationforestry, enderiointegrationtic, enderiointegrationticlate, enderiomachines, enderiopowertools, enderstorage, environmentaltech, exchangers, excore, extracells, extrarails, extrautils2, bigreactors, fairylights, fastbench, fencejumper, flatcoloredblocks, foamfix, forestry, forgelin, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, ftblib, ftbutilities, funkylocomotion, gendustry, advgenerators, guideapi, harvest, helpfixer, ichunutil, immersivepetroleum, immersivetech, ic2, industrialforegoing, initialinventory, integrateddynamics, integrateddynamicscompat, integratedtunnels, integratedtunnelscompat, integrationforegoing, inventorygenerators, inventorytweaks, ironbackpacks, ironchest, jaopca, oredictinit, jaopcaadditions, jei, jeibees, justenoughdimensions, kjlib, kleeslabs, librarianliblate, librarianlib, libvulpes, lostcities, lostsouls, magipsi, magicbees, malisiscore, malisisdoors, mantle, mcjtylib_ng, mcmultipart, mekanism, mekanismgenerators, mekanismtools, minecolonies, mobtotems, modtweaker, morphtool, morpheus, mrtjpcore, mtlib, mysticalagradditions, mysticalagriculture, natura, naturescompass, nmsot, neid, notenoughwands, nuclearcraft, nutrition, ocxnetdriver, oeintegration, openblocks, opencomputers, openmods, oreexcavation, overloaded, p455w0rdslib, packmode, harvestcraft, pamscookables, parry, placebo, plants2, platforms, plustic, pneumaticcraft, portalgun, portality, practicallogistics2, pressure, projectred-core, projectred-compat, projectred-fabrication, projectred-integration, projectred-transmission, projectred-illumination, projectred-expansion, projectred-relocation, projectred-transportation, projectred-exploration, psi, quantumstorage, quark, quickleafdecay, rangedpumps, realfilingcabinet, reborncore, rebornstorage, redstonearsenal, redstoneflux, refinedstorage, refinedstorageaddons, xreliquary, rftools, rftoolscontrol, rftoolsdim, rftoolspower, roots, rustic, woodenshears, shadowmc, simplyjetpacks, slimyboyos, sonarcore, soulshardstow, stevescarts, storagedrawers, storagedrawersextra, tconstruct, techreborn, terraqueous, teslacorelib, teslacorelib_registries, thaumcraft, tcinventoryscan, thebetweenlands, theoneprobe, thermalcultivation, thermaldynamics, thermalexpansion, thermalfoundation, thermalinnovation, tinker_io, tinkertoolleveling, tombmanygraves, tombmanygraves2api, topaddons, traverse, twilightforest, unidict, unloader, usefulnullifiers, universalmodifiers, valkyrielib, waim, wanionlib, waterstrainer, waystones, wirelesscharger, wct, wizardry, woot, wrapup, xnet, xtones, ynot, zerocore, industrialwires, shetiphiancore, immersiveengineering] at SERVER
+[20:48:39] [Server thread/INFO] [neid]: Patching class: "net.minecraft.network.PacketBuffer" with Transformer Group: "TransformerGroupPacketBuffer"
+[20:48:40] [Server thread/INFO] [STDOUT]: [com.therandomlabs.randompatches.RPTransformer:transform:38]: Patching class: net.minecraft.network.NetHandlerPlayServer
+[20:48:40] [Server thread/INFO] [STDOUT]: [com.therandomlabs.randompatches.RPTransformer:findUpdateMethod:312]: Patching method: e
+[20:48:40] [Server thread/INFO] [Gotta Go Fast]: patching net.minecraft.network.NetHandlerPlayServer.processVehicleMove(CPacketVehicleMove)
+[20:48:40] [Server thread/INFO] [Gotta Go Fast]: patching net.minecraft.network.NetHandlerPlayServer.processPlayer(CPacketPlayer)
+[20:48:40] [Server thread/INFO] [FML]: [AstralTransformer] Transforming axw : net.minecraft.world.chunk.Chunk with 1 patches!
+[20:48:40] [Server thread/INFO] [FML]: [AstralTransformer] Applied patch PATCHBLOCKMODIFY
+[20:48:40] [Server thread/INFO] [BedPatch]: Patching Chunk
+[20:48:40] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:48:40] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:48:41] [Server thread/INFO] [brandonscore]: Brandon's Core online! Waiting for Draconic Evolution to join the party....
+[20:48:41] [Server thread/INFO] [draconicevolution]: Draconic Evolution online!
+[20:48:41] [Server thread/INFO] [brandonscore]: Hay! There you are! Now lets destroy some worlds!!
+[20:48:41] [Server thread/INFO] [draconicevolution]: Sounds like fun! Lets get to it!
+[20:48:41] [Server thread/INFO] [draconicevolution]: Hello Minecraft!!!
+[20:48:41] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[20:48:41] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[20:48:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `actuallyadditions` for name `magnet_ring_bauble`, expected `actuallybaubles`. This could be a intended override, but in most cases indicates a broken mod.
+[20:48:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `actuallyadditions` for name `potion_ring_advanced_bauble`, expected `actuallybaubles`. This could be a intended override, but in most cases indicates a broken mod.
+[20:48:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `actuallyadditions` for name `battery_bauble`, expected `actuallybaubles`. This could be a intended override, but in most cases indicates a broken mod.
+[20:48:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `actuallyadditions` for name `battery_double_bauble`, expected `actuallybaubles`. This could be a intended override, but in most cases indicates a broken mod.
+[20:48:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `actuallyadditions` for name `battery_triple_bauble`, expected `actuallybaubles`. This could be a intended override, but in most cases indicates a broken mod.
+[20:48:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `actuallyadditions` for name `battery_quadruple_bauble`, expected `actuallybaubles`. This could be a intended override, but in most cases indicates a broken mod.
+[20:48:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `actuallyadditions` for name `battery_quintuple_bauble`, expected `actuallybaubles`. This could be a intended override, but in most cases indicates a broken mod.
+[20:48:42] [Server thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:126]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Transforming ContainerWorkbench
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [transferStackInSlot, func_82846_b, b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack; / (Laed;I)Laip;)
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 10
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 46
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 10
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 37
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 37
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Adding invokestatic to 37/5
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Located patch target node BIPUSH 46
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Adding invokestatic to 46/6
+[20:48:45] [Server thread/INFO] [FML]: [Quark ASM] Patch result: true
+[20:48:45] [Server thread/WARN] [teslacorelib]: Annotated class 'net.ndrei.teslacorelib.blocks.multipart.MultiPartBlockEvents' not found!
+[20:48:45] [Server thread/ERROR] [FML]: Error while loading config /config/IntegrationForegoing.cfg.
+java.io.IOException: Permission denied
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_171]
+	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_171]
+	at net.minecraftforge.common.config.Configuration.load(Configuration.java:830) [Configuration.class:?]
+	at net.minecraftforge.common.config.Configuration.runConfiguration(Configuration.java:129) [Configuration.class:?]
+	at net.minecraftforge.common.config.Configuration.<init>(Configuration.java:146) [Configuration.class:?]
+	at net.minecraftforge.common.config.Configuration.<init>(Configuration.java:107) [Configuration.class:?]
+	at net.minecraftforge.common.config.ConfigManager.sync(ConfigManager.java:177) [ConfigManager.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:602) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[20:48:45] [Server thread/ERROR] [FML]: Error while loading config /config/IntegrationForegoing.cfg.
+java.io.IOException: Permission denied
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_171]
+	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_171]
+	at net.minecraftforge.common.config.Configuration.load(Configuration.java:830) [Configuration.class:?]
+	at net.minecraftforge.common.config.ConfigManager.sync(ConfigManager.java:178) [ConfigManager.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:602) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[20:48:45] [Server thread/ERROR] [FML]: Error while saving config /config/IntegrationForegoing.cfg.
+java.io.IOException: Permission denied
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_171]
+	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_171]
+	at net.minecraftforge.common.config.Configuration.save(Configuration.java:1076) [Configuration.class:?]
+	at net.minecraftforge.common.config.ConfigManager.sync(ConfigManager.java:185) [ConfigManager.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:602) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[20:48:46] [Server thread/ERROR] [FML]: Error while loading config /config/Exchangers.cfg.
+java.io.IOException: Permission denied
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_171]
+	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_171]
+	at net.minecraftforge.common.config.Configuration.load(Configuration.java:830) [Configuration.class:?]
+	at net.minecraftforge.common.config.Configuration.runConfiguration(Configuration.java:129) [Configuration.class:?]
+	at net.minecraftforge.common.config.Configuration.<init>(Configuration.java:146) [Configuration.class:?]
+	at net.minecraftforge.common.config.Configuration.<init>(Configuration.java:107) [Configuration.class:?]
+	at net.minecraftforge.common.config.ConfigManager.sync(ConfigManager.java:177) [ConfigManager.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:602) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[20:48:46] [Server thread/ERROR] [FML]: Error while loading config /config/Exchangers.cfg.
+java.io.IOException: Permission denied
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_171]
+	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_171]
+	at net.minecraftforge.common.config.Configuration.load(Configuration.java:830) [Configuration.class:?]
+	at net.minecraftforge.common.config.ConfigManager.sync(ConfigManager.java:178) [ConfigManager.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:602) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[20:48:46] [Server thread/ERROR] [FML]: Error while saving config /config/Exchangers.cfg.
+java.io.IOException: Permission denied
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_171]
+	at java.io.File.createNewFile(File.java:1012) ~[?:1.8.0_171]
+	at net.minecraftforge.common.config.Configuration.save(Configuration.java:1076) [Configuration.class:?]
+	at net.minecraftforge.common.config.ConfigManager.sync(ConfigManager.java:185) [ConfigManager.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:602) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[20:48:48] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.LoaderException: thebetweenlands Failed to load new mod instance.
+
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:593) ~[forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) ~[minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218) ~[forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196) ~[forge-1.12.2-14.23.4.2715-universal.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) ~[minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) ~[minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135) ~[LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:593) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:332) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraftforge.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:189) ~[ILanguageAdapter$JavaAdapter.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:588) ~[FMLModContainer.class:?]
+	... 30 more
+Caused by: java.lang.NoClassDefFoundError: thebetweenlands/core/TheBetweenlandsPreconditions
+	at thebetweenlands.common.TheBetweenlands.createInstance(TheBetweenlands.java:143) ~[TheBetweenlands.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraftforge.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:189) ~[ILanguageAdapter$JavaAdapter.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:588) ~[FMLModContainer.class:?]
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: thebetweenlands.core.TheBetweenlandsPreconditions
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_171]
+	at thebetweenlands.common.TheBetweenlands.createInstance(TheBetweenlands.java:143) ~[TheBetweenlands.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_171]
+	at net.minecraftforge.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:189) ~[ILanguageAdapter$JavaAdapter.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:588) ~[FMLModContainer.class:?]
+	... 30 more
+Caused by: java.lang.NullPointerException
+[20:48:48] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /home/minecraft/multicraft/servers/atm3/./crash-reports/crash-2018-07-14_20.48.48-server.txt
+[20:48:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:48:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:48:48] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Advanced Rocketry (advancedrocketry)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: Caused by: java.lang.NullPointerException
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at zmaster587.advancedRocketry.cable.NetworkRegistry.clearNetworks(NetworkRegistry.java:16)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at zmaster587.advancedRocketry.AdvancedRocketry.serverStopped(AdvancedRocketry.java:2055)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:626)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at net.minecraftforge.fml.common.Loader.serverStopped(Loader.java:855)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at net.minecraftforge.fml.common.FMLCommonHandler.handleServerStopped(FMLCommonHandler.java:507)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:587)
+[20:48:48] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:91]: 	at java.lang.Thread.run(Thread.java:748)
+[20:48:48] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:48:48] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
